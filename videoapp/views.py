@@ -11,11 +11,11 @@ genai.configure(api_key="AIzaSyAyFp5z7Jiq8qXCO96RPSU08w3nAJkPHf0")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 # Initialize the HandDetector class with the given parameters
-
 detector = HandDetector(mode=False, maxHands=1, detectionCon=0.75, minTrackCon=0.75)
 
 # Initialize the webcam to capture video
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
+cap.set(cv2.CAP_PROP_BUFFERSIZE,1)
 
 if not cap.isOpened():
     raise RuntimeError("Error: Could not open webcam.")
