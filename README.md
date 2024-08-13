@@ -1,7 +1,7 @@
-# 🧮 Apple-Inspired AI Calculator
+# 🧮 Live Solve
 
 ## 📝 Overview
-The Apple-Inspired AI Calculator is an innovative project that utilizes OpenCV and Google’s Gemini AI to solve mathematical problems of any complexity. The user can draw the math problem on the screen, and the AI model will interpret the visual input to provide a detailed solution. This project is similar to the Apple iPad calculator but leverages advanced AI technology for enhanced functionality and accuracy.
+The Live Solve is an innovative project that utilizes OpenCV and Google’s Gemini AI to solve mathematical problems of any complexity. The user can draw the math problem on the screen, and the AI model will interpret the visual input to provide a detailed solution. This project is similar to the Apple iPad calculator but leverages advanced AI technology for enhanced functionality and accuracy.
 
 ## ✨ Features
 - ✍️ **Draw Math Problems:** Use your finger to draw any mathematical problem on the screen.
@@ -42,15 +42,9 @@ The Apple-Inspired AI Calculator is an innovative project that utilizes OpenCV a
 5. **Access the Web Application:**
    - Open your web browser and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000) to use the app.
 
-## 🎥 Demo Video
-
-Check out the demo video to see the Virtual AI Calculator in action:60k+ reactions
-
-[Watch the Demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7221422183175139328/)
-
 ## 🎨 Drawing Rules
 
-To interact with the calculator, follow these drawing rules:
+To interact with the Application, follow these drawing rules:
 - ✍️ Draw math problems only when the pointer finger is up.
 - 🖱️ Move around the screen by lifting two fingers.
 - 🗑️ Reset/erase the canvas by lifting the thumb.
@@ -68,10 +62,6 @@ To better understand the technologies used in this project, you can explore the 
 ## 🤝 Contribution
 
 We welcome contributions to enhance this project. Feel free to submit issues and pull requests. Your feedback and suggestions are highly appreciated!
-
-## 📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
